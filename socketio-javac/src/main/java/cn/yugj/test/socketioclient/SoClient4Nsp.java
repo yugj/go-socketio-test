@@ -10,6 +10,7 @@ import io.socket.client.Socket;
 public class SoClient4Nsp {
 
     public static void main(String[] args) {
+        // namespace
         String url = "http://localhost:8000/chat";
         try {
             IO.Options options = new IO.Options();
