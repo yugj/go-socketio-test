@@ -1,5 +1,5 @@
 package main
-
+// test go websocket server
 import (
 	"fmt"
 	"log"

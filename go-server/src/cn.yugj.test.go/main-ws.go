@@ -16,7 +16,7 @@ var upgrader = websocket.Upgrader{
 	CheckOrigin:     func(r *http.Request) bool { return true },
 }
 
-// define a reader which will listen for
+// reader define a reader which will listen for
 // new messages being sent to our WebSocket
 // endpoint
 func reader(conn *websocket.Conn) {
