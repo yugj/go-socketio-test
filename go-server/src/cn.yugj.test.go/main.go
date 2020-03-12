@@ -1,5 +1,5 @@
 package main
-// test go websocket server
+
 import (
 	"fmt"
 	"log"
@@ -8,6 +8,7 @@ import (
 	"github.com/googollee/go-socket.io"
 )
 
+// test go websocket server
 func main() {
 	server, err := socketio.NewServer(nil)
 	if err != nil {
